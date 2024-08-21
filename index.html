@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Lab Activity</title>
+    <link href="assets/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/off-canvas-menu.css" />
+    <script async src="/js/accordion.js"></script>
+    <script async src="/js/clock.js"></script>
+    <script src="/js/gomenu.js"></script>
+ 
+</head>
+<body>
+    <!-- navbar  -->
+    <div class="navbar-header">
+      <span>
+          <img class="navbar-logo" src="./assets/favicon.ico" alt="kalbe logo">
+      </span>
+      
+    <a><b class="me-1">Kalbe</b> <span class="me-2">Morinaga</span></a>
+      <div id="clock" ></div>
+      
+  </button>
+  </div>
+  
+
+     <!-- Web KMI  -->
+    <div class="content-container">
+      <div class="content">
+        <main>
+
+          <aside class="icon-open-row">
+            <div class="icon-open-container">
+              <div class="icon-open-col-1">☰</div>
+            </div>
+            <form id="GoMenu1" role="menu">
+              <select id="GoMenu1-select" name="GoMenu1" onchange="onChangeGoMenu1()">
+              <option class="_self" value="#" selected="">Web KMI</option>
+              <option class="_blank" value="" role="menuitem"></option>
+              <option class="_blank" value="http://10.175.14.215/kalbe/linea/index2.php" role="menuitem">Line A</option>
+              <option class="_blank" value="http://10.175.14.215/kalbe/lineb/index2.php" role="menuitem">Line B</option>
+              <option class="_blank" value="http://10.175.14.215/kalbe/linej/index2.php" role="menuitem">Line D</option>
+              <option class="_blank" value="http://10.175.14.215/kalbe/linee/index2.php" role="menuitem">Line E</option>
+              <option class="_blank" value="http://kmioracle.kalbemorinaga.local:8000/" role="menuitem">Oracle</option>
+              <option class="_blank" value="http://kmiportal.kalbemorinaga.local/improvement_v2/" role="menuitem">Improvement</option>
+              <option class="_blank" value="http://10.175.11.75/liga-cg/admin/login" role="menuitem">TPM</option>
+              <option class="_blank" value="http://kmiportal.kalbemorinaga.local/appgm5p/" role="menuitem">GMP</option>
+              <option class="_blank" value="https://captivekmi.kalbenutritionals.com:6082/php/uid.php?vsys=1&amp;rule=2&amp;url=http://hp17win10.msn.com%2f%3fpc%3dHCTE" role="menuitem">Captive KMI</option>
+              <option class="_blank" value="http://10.175.13.146/" role="menuitem">Web Release BIN</option>
+              </select>
+              </form>
+          </aside>
+        </main>
+      </div>
+    </div>
+
+    <!-- sidebar  -->
+    <div class="off-canvas">
+      <div class="off-canvas-header">
+        <h4 class="off-canvas-title">Menu</h4>
+        <div aria-label="Close">
+          <div class="icon-close"></div>
+        </div>
+      </div>
+
+      <div class="off-canvas-body">
+        <nav class="off-canvas-nav">
+          <div class="list-level-0">
+            <!-- menu 1  -->
+            <div class="list-item">
+              <a href="#" class="link-level-1"> Home </a>
+            </div>
+            
+            <!-- menu 2  -->
+            <div class="list-item">
+              <a href="index.html" class="link-level-1"> Log Book Mikro </a>
+            </div>
+            
+            <!-- menu 3 -->
+            <div class="list-item">
+              <a href="#" class="link-level-1"> Google Drive <span class="link-arrow">›</span>
+              </a>
+            </div>
+
+            <div class="list-level-1">
+              
+              <div class="list-item">
+                <a href="#" class="link-level-2">
+                  Drive Mikro <span class="link-arrow">›</span>
+                </a>
+              </div>
+              
+              <div class="list-level-2">
+                <div class="list-item">
+                  <a href="https://drive.google.com/drive/folders/1Bb-9TiXahpA52Uk38zQ4Bwu5FuWp93M7?usp=drive_link" target="_blank" class="link-level-3"><span><img src="assets/folder.png" style="width: 20px; height: 20px;"></span>Bimasakti 2023</a>
+                </div>
+
+                <div class="list-item">
+                  <a href="https://drive.google.com/drive/folders/1Up1RR7N2JDYqRQ8BGpZk8NwYN8s1W31A?usp=drive_link" target="_blank" class="link-level-3"><span><img src="assets/folder.png" style="width: 20px; height: 20px;"></span>Bimasakti 2024 </a>
+                </div>
+              </div>
+
+
+              <div class="list-item">
+                <a href="https://drive.google.com/drive/folders/1FOi25c5TcQVjstDqfRiCWGONoSNRv4i-" target="_blank" class="link-level-2"><span><img src="assets/folder.png" style="width: 20px; height: 20px;"></span> Customer Coumplain </a>
+              </div>
+              <div class="list-item">
+                <a href="https://drive.google.com/drive/folders/1eR6SKGBNN1AeubYQJXGlfuJ4zgdnmbYe" target="_blank" class="link-level-2"><span><img src="assets/folder.png" style="width: 20px; height: 20px;"></span> ES Table </a>
+              </div>
+              <div class="list-item">
+                <a href="https://drive.google.com/drive/folders/1C1ecgliPbkDTOEfOGjjFmddemPs_o-W3" target="_blank" class="link-level-2"><span><img src="assets/folder.png" style="width: 20px; height: 20px;"></span> Hygiene </a>
+              </div>
+            </div>
+
+            <!-- menu 4  -->
+            <div class="list-item">
+              <a href="#" class="link-level-1">
+                Record Jam FG <span class="link-arrow">›</span>
+              </a>
+            </div>
+            <div class="list-level-1">
+
+              <div class="list-item">
+                <a href="https://docs.google.com/spreadsheets/d/1oktvHkQpGdiC8FsxkUtA9SQ78OR02Faf7LWHT5f1Kew/edit?usp=drive_link" target="_blank" class="link-level-2"> Line A </a>
+              </div>
+
+              <div class="list-item">
+                <a href="https://docs.google.com/spreadsheets/d/1ZYSPvKf2Cj3uliGKoxmfmhPnEdg-g7rEaQC1hdP3Enk/edit?usp=drive_link" target="_blank" class="link-level-2"> Line B </a>
+              </div>
+
+              <div class="list-item">
+                <a href="https://docs.google.com/spreadsheets/d/14wxXZ08g1-3AxVe9vOOBzPXYmRcJ4J0TozPUEBb_8WM/edit?usp=drive_link" target="_blank" class="link-level-2"> Line DJ </a>
+              </div>
+
+              <div class="list-item">
+                <a href="https://docs.google.com/spreadsheets/d/1H70pVQ-WU9I62LvdgqdMQyNu-ipWLFIZqkz4zK7NmiY/edit?usp=drive_link" target="_blank" class="link-level-2"> Line E </a>
+              </div>
+
+              <div class="list-item">
+                <a href="https://docs.google.com/spreadsheets/d/1lXZUCi3p3UfMIQspLxYhoKMExK-XrAkaBVj5cTvvzAc/edit?usp=drive_link" target="_blank" class="link-level-2"> Line F </a>
+              </div>
+
+            </div>
+            <div class="list-item">
+              <a href="https://wa.me/085741869736" class="link-level-1"> Contact </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <script async src="js/off-canvas-menu.js"></script>
+      
+<main>
+    <!-- Accordion 1  -->
+    <button class="accordion" id="accordion"><b>Log Book In-Proses</b></button>
+        <div class="panel">
+            <a href="https://docs.google.com/spreadsheets/d/13JlNjXfQq1saPelXQWsUlKpr61oqKkMXeQHhNNCU0t0/edit?usp=drive_link" target="_blank"><button class="button1" ><b>Base Powder</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1ocCPOTgdY1JOBMmhFskotgju4yWITuMeZcIid3G3MVU/edit?usp=drive_link" target="_blank"><button class="button1"><b>Buffer Tank</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1gVVfn8kOLRwpVAnBZvRfKtdhbVGOvSssvU7Y4wpkAws/edit?usp=drive_link" target="_blank"><button class="button1"><b>Concentrate Tank</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1e7gbmILiLYWG8OXjR9XIjGK69YwaV-ekXJUennJ8qRs/edit?usp=drive_link" target="_blank"><button class="button1"><b>Tailing Cut</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1Qg4R4gfMphyyyEBN6iUUZNvtGzFAHzwglkvx7llA_4A/edit?usp=drive_link" target="_blank"><button class="button1"><b>Blending</b></button></a>
+        </div>
+
+    <!-- accordion 2  -->
+    <button class="accordion"><b>Log Book Finish Product</b></button>
+        <div class="panel">
+            <a href="https://docs.google.com/spreadsheets/d/1yCCENz1kuA097HY6dsT0Zfu2fMHtVp3XDtFDKiEXEaA/edit?usp=drive_link" target="_blank"><button class="button2" ><b>Finish Product</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1GL98QJHaY2AdJx8VgQhcK4MxSZ87jffIfpBJQzFELmw/edit?usp=drive_link" target="_blank"><button class="button2"><b>Flushing</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1BHS6f_cWQPcWDzQEJt4Taa7sZp5Lv1Dqrlr1itTOLGM/edit?usp=drive_link" target="_blank"><button class="button2"><b>RM / PM</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1yntaIxoGLtG3fg5fZYI4N4XSfhNAatKx-yxstYms9zg/edit?usp=drive_link" target="_blank"><button class="button2"><b>Temuan Outspec</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1lGTKjPaKN9sWaguKxqFXtrwoV0vHwr8eaQ0XsDrCfEc/edit#gid=1218143714" target="_blank"><button class="button2"><b>Komposit PCR</b></button></a>
+        </div>
+
+    <!-- accordion 3  -->
+    <button class="accordion"><b>Log Book Environment</b></button>
+        <div class="panel">
+            <a href="https://docs.google.com/spreadsheets/d/13LpVhI9T7QRJwYvg9kaJbLJiurtImsvLl_xcLG33_HU/edit?usp=drive_link" target="_blank"><button class="button3" ><b>Alat Produksi</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1aOoQqCOdSOy_oleim225jaH3XGBoEr9I0iXnZR1bj4s/edit?usp=drive_link" target="_blank"><button class="button3"><b>Swab Bin</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1X_3npU0kEuoMcu3PzVRwM1yBkBeKYU_B377I61mhPDk/edit?usp=drive_link" target="_blank"><button class="button3"><b>Monitoring Awal Jalan</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1buNhY5fEOM_u9SbQB7YLK60BOo_ID90MlzbbGrA2VYI/edit?usp=drive_link" target="_blank"><button class="button3"><b>Metal Catcher & Siever</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1SQoIxfHxVEvpkA_MIJLRjwCyYMg3vUhK/edit?usp=drive_link&ouid=100632379816227668987&rtpof=true&sd=true" target="_blank"><button class="button3"><b>Swab Dumping</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1LhFhNH5-o2s_-thX9Od5gQZxI5ItHuzA4uXSWd6USt8/edit?usp=drive_link" target="_blank"><button class="button3" ><b>Swab Frontline</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1HdIluCl-GktQKL87KcF0dBwPPMLPUyg-/edit?usp=drive_link&ouid=100632379816227668987&rtpof=true&sd=true" target="_blank"><button class="button3"><b>Monitoring Lab</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1Qovu9NJQ3RjGdKqTG98CluDtF6IWVPbRs54WiInRtno/edit?usp=drive_link" target="_blank"><button class="button3"><b>Swab PRP</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1CwJge6Z7uiNXZMbDH0J-4maBZI9WXF0wefUMGsO0HiA/edit?usp=drive_link" target="_blank"><button class="button3"><b>Swab OPRP</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1K5lwK0_AjY3izqV99SifeNzTg459mCXCsVaCFBkk6qg/edit?usp=drive_link" target="_blank"><button class="button3"><b>Air Bilasan CIP</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1V82tPUcIugAYbLLN1CT9TP_8mQxh5yoC_fjYFT2Z-w4/edit?usp=drive_link" target="_blank"><button class="button3"><b>Air Harian</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1TeIcKda1JysqNON3jV0fkAMZ7uC-2go3bHDsmpxBLoA/edit?usp=drive_link" target="_blank"><button class="button3"><b>Eksposure</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1wGQSPfxYp5RywV2KtJxXTKwc7J6VIghe/edit?usp=drive_link&ouid=100632379816227668987&rtpof=true&sd=true" target="_blank"><button class="button3"><b>Particle Count</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/18jMWvTZK6yaGke3BwmouA8zeEcOFuU6A/edit?gid=1618799694#gid=1618799694" target="_blank"><button class="button3"><b>Genba Hygiene</b></button></a>
+        </div>
+
+    <!-- accordion 4  -->
+    <button class="accordion"><b>File Mikro</b></button>
+        <div class="panel">
+            <a href="https://docs.google.com/spreadsheets/d/18jMWvTZK6yaGke3BwmouA8zeEcOFuU6A/edit?gid=1618799694#gid=1618799694" target="_blank"><button class="button4" ><b>Log Book Mikro</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1OZLIkF6rTL4d4qUMl87evqb3uTfP-0GjqKUpe2P_MNQ/edit?usp=drive_link" target="_blank"><button class="button4"><b>Record Jam</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1iME4tAsP4LduWttwp3a1HFb0AntoF8tfKGWJWi2UEPA/edit?usp=share_link" target="_blank"><button class="button4"><b>Release Bin</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1eFUNTYADz8T9cJ-zO-c1AygwQCmab270PqpXZSqVKb4/edit?usp=drive_link" target="_blank"><button class="button4"><b>Form Oracle</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1flsYs7962sXu1qVsDDNioEILUagIscEWFfkXOwuquA0/edit#gid=226677427" target="_blank"><button class="button4"><b>Absen QA</b></button></a>
+            <a href="https://docs.google.com/spreadsheets/d/1esxXCOLj7gxJrFvPjSexZnWC1SEq3GmU/edit#gid=1554821936" target="_blank"><button class="button4"><b>Sampel Register</b></button></a>
+        </div>
+      
+</main>
+<!-- footer  -->
+<footer class="footer-content">
+  <div>
+    <u><p> </p></u> <hr>
+  </div>
+  <a href="#">
+    <b><p id="copyright">&copy; 2024 Lab Microbiology</p></b>
+  </a>
+</footer>
+</body>
+
+</html>
