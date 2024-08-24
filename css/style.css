@@ -25,12 +25,13 @@
   text-align: left;
   outline: none;
   font-size: 15px;
-  transition: 0.4s;
+  transition: 
 }
 
 .active, .accordion:hover {
   background-color: #ccc; 
   color: crimson;
+
 }
 
 .panel {
@@ -99,6 +100,13 @@
   transition:cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
+.button1:active,.button2:active,.button3:active,.button4:active {
+  background-color:coral;
+  box-shadow: 0 5px #666;
+  transform:;
+}
+
+
 .label-content {
   font-family:monospace;
   text-align: center;
@@ -149,7 +157,8 @@ body {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin-left: 83%;
+  margin-left: 82%;
+  font-family: monospace;
 }
 
 .footer-content{
@@ -174,4 +183,8 @@ body {
 #copyright{
   width: 200px;
   height: 50px;
+}
+
+.footer{
+  text-align: center;
 }
